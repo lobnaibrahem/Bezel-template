@@ -1,0 +1,245 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 1s;
+
+    
+}
+.navbar-brand img {
+    max-height: 40px;
+}
+.icons{
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.icons i{
+    color: #fff;
+    margin: 0 5px;
+}
+.nav-item a{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+.carousel-item:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: rgba(0,0,0,.5);
+}
+.title{
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    z-index: 15615;
+    position: relative;
+}
+.title h1{
+    font-size:100px;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-weight: 700;
+    transform: scale(1);
+    transition: all 2s;
+     font-family: 'Poppins', sans-serif;
+}
+.title h4{
+    padding: 5px;
+}
+#about{
+    text-align: center;
+    padding: 50px;
+}
+#about h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    
+
+}
+#about p{
+    font-size: 24px;
+    margin: 20px 0;
+    color: #AEAEAE;
+    font-weight: 300;
+    
+}
+span.element{
+    color: #00D5EE;
+}
+.btn-act-color{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    background-color: #00D5EE;
+}
+.btn-color{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    background-color: transparent;
+    
+}
+.bt-about{
+    border: 1px solid #AEAEAE;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+section{
+    border-top: 1px solid #eee;
+}
+.work-1{
+    color:#979797;
+    font-weight: 300;
+}
+.tabs{
+    margin-top: 80px;
+}
+.ta .nav-item a.active{
+    border-bottom: 1px solid #000;
+    
+}
+.team-title{
+        padding:110px 0;
+        text-align: center;
+}
+#team{
+        padding-bottom: 25px;
+}
+.team-title h2{
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+    line-height: 1.3;
+}
+.team-title p{
+font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #787878;
+}
+.img-cover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 195, 218, 0.7);
+  overflow: hidden;
+  width: 90%;
+  transform: translateX(15px);
+  height: 0;
+  transition: .5s ease;
+}
+#team .container .team:hover .img-cover {
+  height: 100%;
+}
+.cover-title {
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   transition-delay: 5s;
+}
+.cover-icons i{
+    color: #fff;
+    text-align: left;
+    padding: 20px  10px 20px 10px ;  
+}
+.cover-title h4{
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-size: 13px;
+}
+.cover-title p{
+        font-size: 12px;
+}
+#service{
+    background-image: url(../images/bg-image-26..jpg);
+    background-size:cover;
+    color: #fff;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    padding-bottom: 110px;
+}
+.drow{
+    padding-top: 110px;
+}
+.service-title{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    font-weight: 700;
+}
+.service-list{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 150px;
+}
+.service-list i{
+    padding-right: 5px;
+}
+hr{
+    width: 5%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+.nav-tabs,.nav-tabs .active {
+    border: none;
+}
+.nav-tabs .nav-link.active{
+    color: #3ED2E3;
+    border: 1px solid #3ED2E3;
+    background-color: transparent;
+    border-radius: 30px;
+
+}
+.nav-tabs{
+    margin-bottom: 60px;
+}
+.nav-tabs .nav-link:hover{
+    border: none;
+}
+.nav-tabs .nav-item:first-child{
+        margin-left: auto;
+}
+.nav-tabs .nav-item:last-child{
+    margin-right: auto;
+}
+#prices{
+    background-color: #F7F7F7;
+}
